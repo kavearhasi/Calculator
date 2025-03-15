@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="label">25sp</dimen>
+    <dimen name="groupPadding">10dp</dimen>
+    <dimen name="margins">15dp</dimen>
+    <dimen name="viewPadding">10dp</dimen>
+    <dimen name="viewMargin">10dp</dimen>
+</resources>
