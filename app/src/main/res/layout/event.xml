@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/eventParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:background="@color/mediumBlack"
+    android:padding="@dimen/_12sdp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/question"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="58x6"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintBottom_toTopOf="@id/answer"
+        app:layout_constraintEnd_toStartOf="@id/remove"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/remove"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@color/mediumBlack"
+        android:padding="@dimen/_5sdp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cancel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="348"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_22sdp"
+        app:layout_constraintBottom_toTopOf="@id/date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="23/1/23"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/answer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

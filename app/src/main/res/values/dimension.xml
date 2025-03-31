@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="title">23sp</dimen>
+    <dimen name="normal">16sp</dimen>
+    <dimen name="tiny">13sp</dimen>
+    <dimen name="label">17sp</dimen>
+    <dimen name="groupPadding">15dp</dimen>
+    <dimen name="elementMargin">5dp</dimen>
+    <dimen name="viewPadding">18dp</dimen>
+    <dimen name="viewMarginStart">20dp</dimen>
+    <dimen name="labelPadding">15dp</dimen>
+    <dimen name="normalPadding">10dp</dimen>
+    <dimen name="travelViewMargin">10dp</dimen>
+    <dimen name="travelViewButtonPadding">8dp</dimen>
+    <dimen name="travelTitleSize">25sp</dimen>
+    <dimen name="travelNormal">18sp</dimen>
+<!--    Calculator Dimensions-->
+    <dimen name="calcTitlePadding">@dimen/_14sdp</dimen>
+    <dimen name="calcTitleSize">@dimen/_23sdp</dimen>
+    <dimen name="calcResultPadding">@dimen/_1sdp</dimen>
+   <dimen name="calcTextSizeNormal">@dimen/_15sdp</dimen>
+    <dimen name="calcTitleMarginTop">@dimen/_10sdp</dimen>
+    <dimen name="calcButtonMargin">@dimen/_5sdp</dimen>
+    <dimen name="calcButtonPadding">@dimen/_10sdp</dimen>
+    <dimen name="minTextSize">@dimen/_16sdp</dimen>
+    <dimen name="maxTextSize">@dimen/_20sdp</dimen>
+</resources>

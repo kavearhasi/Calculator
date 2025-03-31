@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="signup_to_guvi">SignUp To Guvi | </string>
+    <string name="upload_profile_photo">Upload Profile Photo</string>
+    <string name="uploadbutton">uploadButton</string>
+    <string name="sigIn">Have an Account sign in</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="male">Male</string>
+    <string name="email_address">Email Address</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="mobile_number">Mobile Number eg:(+91)123456789</string>
+    <string name="terms_condition"><![CDATA[Agree to Terms&Condition]]></string>
+    <string name="password">password</string>
+    <string name="re_type_password">Re-type password</string>
+    <string name="dob">DOB</string>
+    <string name="date">date</string>
+    <string name="month">month</string>
+    <string name="year">year</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="back">back</string>
+    <string name="like">like</string>
+    <string name="place_name">Rio de jenero</string>
+    <string name="place_country">Brazil</string>
+    <string name="rating">5.0</string>
+    <string name="star_icon">star icon</string>
+    <string name="reviews">134 Reviews</string>
+    <string name="placeContent">"Similar to a guideline, a barrier is an invisible line that you can constrain views ."</string>
+    <string name="read_more">Read More</string>
+    <string name="upcoming_tours">Upcoming Tours</string>
+    <string name="see_all">See All</string>
+    <string name="iconic_brazil">Iconic Brazil</string>
+    <string name="up_description">8 Days-From $659/Person</string>
+    <string name="canada">Cold Canada</string>
+    <string name="calculator">Calculator</string>
+    <string name="calcAnswer">Answer</string>
+    <string name="calcInput">input</string>
+    <string name="calcdelete">Del</string>
+    <string name="calc_error">Error</string>
+    <string name="clac_arthematic_exception">Cannot be divided by zero</string>
+    <string name="history">History</string>
+    <!--    Constraint Calculator -->
+
+</resources>
